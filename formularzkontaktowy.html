@@ -1,0 +1,39 @@
+<html>
+<meta charset="UTF-8">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="formularzkontaktowy.css">
+</head>
+<body>
+<div class="main">
+	<div class = "navigation">
+		<ul>
+		  <li><a href="index.html">Strona główna</a></li>
+		  <li><a href="uslugi.html">Usługi</a></li>
+		  <li><a href="kariera.html">Kariera</a></li>
+		  <li><a href="formularzkontaktowy.html">Kontakt</a></li>
+		</ul>
+	</div>
+
+	<div class = "hero-image">
+		
+	</div>
+	<div class="contact">
+	 <form method="post" action="send_mail2.php">
+	 
+        <input type="hidden" name="mail_to" value = "stawskipawel94@gmail.com"/> <br/>
+        Temat:<br>   <input type="text" name="mail_sub">
+       <br/><br/>
+	   Wiadomość:<br>
+		<textarea name="mail_msg" placeholder="Wpisz treść wiadomości" cols="30" rows="5"></textarea>
+         <br>
+	<input type="submit" value="Wyślij"><br>
+	</div>
+        
+
+</form>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<meta charset="UTF-8">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="aplikacja.css">
+</head>
+<body>
+<div class="main">
+	<div class = "navigation">
+		<ul>
+		  <li><a href="index.html">Strona główna</a></li>
+		  <li><a href="uslugi.html">Usługi</a></li>
+		  <li><a href="kariera.html">Kariera</a></li>
+		  <li><a href="formularzkontaktowy.html">Kontakt</a></li>
+		</ul>
+	</div>
+
+	<div class = "hero-image">
+		
+	</div>
+
+	 <form method="post" action="send_mail2.php">
+        <input type="hidden" name="mail_to" value = "stawskipawel94@gmail.com"/> <br/>
+        Twój Email:<br><input type="text" name="mail_sub">
+		<br><br/>
+        Kilka słów o sobie<br>
+		<textarea name="mail_msg" cols="50" rows="8"></textarea>
+         <br>
+        <br/><br>   
+		Dodaj CV<br>
+		<input class = "app-button"type="file" name = "attach1"/><br>
+		<p>
+         W skali od 1 do 10 na ile oceniasz swoje umiejetności? <br>
+              0 <input type="range" name="study" id="study" min="0" max="10"> 10
+         </p>
+		<input type="submit" class = "app-button"value="Aplikuj"><br>
+        </form>
+	
+	
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+ul {
+  text-align: center;
+  margin: 40px;
+}
+
+li {
+  display: inline;
+  
+}
+.navigation{
+margin-left: auto;
+  margin-right: auto;
+}
+
+
+a:hover{
+	background-color: #1a8cff;
+}
+a{
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 15px;
+	font-family: Arial Black;
+	color: white;
+	background-color: #4da6ff;
+}
+.hero-image{
+	background-image: url("kontakt.png");
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+		position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: #4da6ff;
+	   color: white;
+	   text-align: center;
+	   font-size: 12px;
+}
+body{
+background-color: #f0f0f5;
+}
+.main-content{
+	line-height: 1.8;
+}
+input[type=text]{
+	border: 2px solid #5270E6;
+	border-radius: 5px;
+	width: 50%;
+	
+}
+textarea{
+	border: 2px solid #5270E6;
+	border-radius: 5px;
+	width: 50%;
+	height: 50px;
+}
+input[type=submit]{
+	width: 50%;
+	padding: 15px 25px;
+	border-radius: 15px;
+	font-family: Arial Black;
+	color: white;
+	background-color: #4da6ff;
+	

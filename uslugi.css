@@ -1,0 +1,64 @@
+ul {
+  text-align: center;
+  margin: 40px;
+}
+
+li {
+  display: inline;
+  
+}
+.navigation{
+margin-left: auto;
+  margin-right: auto;
+}
+
+
+a:hover{
+	background-color: #1a8cff;
+}
+a{
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 15px;
+	font-family: Arial Black;
+	color: white;
+	background-color: #4da6ff;
+}
+.hero-image{
+	background-image: url("hero2.jpg");
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+		position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: #4da6ff;
+	   color: white;
+	   text-align: center;
+	   font-size: 12px;
+}
+.main-content{
+	line-height: 1.8;
+	text-align: justify;
+	
+}
+.about{
+	font-family: Arial Black;
+	font-size: 14;
+	text-align: justify;
+}
+.about-list {
+  text-align: left;
+  display: 
+  margin: 40px;
+  list-style: square;
+}
